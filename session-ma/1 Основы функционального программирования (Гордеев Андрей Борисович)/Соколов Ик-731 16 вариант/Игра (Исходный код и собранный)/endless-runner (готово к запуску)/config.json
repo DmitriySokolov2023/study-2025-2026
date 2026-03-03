@@ -1,0 +1,35 @@
+{
+	"difficultyStepPx": 800,
+	"safeChunks": 2,
+
+	"speeds": {
+		"easy": { "base": 280, "growth": 2.0 },
+		"normal": { "base": 320, "growth": 3.0 },
+		"hard": { "base": 500, "growth": 4.0 }
+	},
+
+	"objects": {
+		"hole": {
+			"enabled": true,
+			"minDifficulty": 0,
+			"baseRate": 0.18,
+			"growth": 0.02
+		},
+		"spike": {
+			"enabled": true,
+			"minDifficulty": 0,
+			"baseRate": 0.2,
+			"growth": 0.03
+		},
+		"medkit": {
+			"enabled": true,
+			"minDifficulty": 1,
+			"baseRate": 0.18,
+			"growth": 0.0
+		}
+	},
+
+	"bridgeBaseChance": 0.88,
+	"bridgeDecayPerLevel": 0.05,
+	"extraPlatformChance": 0.45
+}
